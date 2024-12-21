@@ -11,7 +11,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-3">About Us</h3>
             <p className="pr-12">
               I’m Abdullah Al Nirob, a skilled Front-end Web Developer from
-              Bangladesh, specializing in React.js, HTML, CSS, and JavaScript.
+              Bangladesh, specializing in React.js.
             </p>
           </div>
 
