@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  font-family: "Bricolage Grotesque", serif;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+  scroll-behavior: smooth;
+}
+.glass {
+  background: linear-gradient(
+    135deg,
+    rgba(66, 66, 66, 0.123),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+@media (max-width: 768px) {
+  .glass-2 {
+    background: linear-gradient(
+      135deg,
+      rgba(124, 124, 124, 0.829),
+      rgba(255, 255, 255, 0.678)
+    );
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+}
+.grid-bg {
+  background-image: linear-gradient(#242424 1px, transparent 1px),
+    linear-gradient(to right, #242424 1px, transparent 1px);
+  background-size: 89px 89px;
+  background-color: #010101;
+}
+.grid-bg2 {
+  background-image: linear-gradient(#e5e5e5 1px, transparent 1px),
+    linear-gradient(to right, #e5e5e5 1px, transparent 1px);
+  background-size: 89px 89px;
+  background-color: #fff;
+}
