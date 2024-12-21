@@ -11,7 +11,11 @@ const Contact = () => {
         <span className="ml-3">Contact</span>
       </h1>
       <div className="md:grid md:grid-cols-2 gap-32">
-        <div className="flex flex-col gap-7">
+        <div
+          className="flex flex-col gap-7"
+          data-aos="fade-in"
+          data-aos-delay="150"
+        >
           <h1 className="text-xl font-bold">Contact with Social Media!</h1>
           <span className="ring-1 ring-black text-white hover:text-black space-y-1 md:space-y-2 bg-black hover:bg-white px-5 py-6 rounded-md duration-500">
             <h1 className="text-3xl md:text-4xl">E-mail</h1>
@@ -22,7 +26,11 @@ const Contact = () => {
             <h2 className="md:text-xl">+8801750402019</h2>
           </span>
         </div>
-        <div className="flex flex-col gap-7 mt-10 md:mt-0">
+        <div
+          className="flex flex-col gap-7 mt-10 md:mt-0"
+          data-aos="fade-in"
+          data-aos-delay="200"
+        >
           <h1 className="text-xl font-bold">Send a Message!</h1>
           <form action="" className="flex flex-col gap-4">
             <input
