@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="my-1 md:px-28 py-20 grid-bg2  border-t-2 border-b-2 border-black"
+      className="md:px-28 py-20  border-t-2 border-b-2 border-gray-600"
     >
       <h1 className="text-4xl font-bold text-black mb-10  relative left-14 md:left-3">
         <div className="group relative inline-block">
@@ -18,12 +18,12 @@ const About = () => {
         </div>
         <span className="ml-3">About Me</span>
       </h1>
-      <div className="flex flex-col md:flex-row justify-between space-x-6">
-        <div className="px-10 md:px-0  ">
+      <div className="flex flex-col items-center md:flex-row justify-center md:justify-between space-x-6">
+        <div className="px-10 md:px-0">
           <img
             src="myimage.png"
             alt="Abdullah Al Nirob"
-            className="rounded-2xl ring-4 ring-gray-500 w-[90%]"
+            className="rounded-2xl ring-2 ring-gray-500 w-[90%]"
             //   data-aos="fade-right"
             //   data-aos-duration="1000"
           />
@@ -50,56 +50,89 @@ const About = () => {
             websites that enhance user experience. My goal is to deliver
             innovative solutions that help businesses thrive online.
           </p>
-          <div className="hidden md:grid grid-cols-3">
+          {/* <div className="hidden md:grid grid-cols-3">
             <li
               className="flex flex-col py-5"
               data-aos-duration="900"
               data-aos="zoom-in"
             >
-              <h1 className="bg-[#ccc] w-14 font-bold rounded-full text-3xl md:text-5xl p-2">
+              <h1 className="bg-[#ccc] hover:text-[#ccc] hover:bg-black w-14 font-bold rounded-full text-3xl md:text-5xl p-2">
                 02
               </h1>
               <p className="text-[18px]">Award winner</p>
             </li>
             <li className="flex flex-col py-5" data-aos="zoom-in">
-              <h1 className="bg-[#ccc] w-14 font-bold rounded-full text-3xl md:text-5xl p-2">
+              <h1 className="bg-[#ccc] hover:text-[#ccc] hover:bg-black w-14 font-bold rounded-full text-3xl md:text-5xl p-2">
                 06
               </h1>
               <p className="text-[18px]">Clients</p>
             </li>
             <li className="flex flex-col py-5" data-aos="zoom-in">
-              <h1 className="bg-[#ccc] w-14 font-bold rounded-full text-3xl md:text-5xl p-2">
+              <h1 className="bg-[#ccc] hover:text-[#ccc] hover:bg-black w-14 font-bold rounded-full text-3xl md:text-5xl p-2">
                 03
               </h1>
               <p className="text-[18px]">Job done successfully</p>
             </li>
-          </div>
+          </div> */}
           <div className="flex flex-col space-y-3">
-            <h1 className="text-4xl mb-2 text-gray-900 font-extrabold">
+            <h1 className="text-4xl mt-7 mb-2 text-gray-900 font-extrabold">
               Available On!
             </h1>
-            <div className="flex items-center gap-1 md:gap-3">
-              <div className="bg-[#ccc] p-3 cursor-pointer rounded-full">
-                <IoLogoLinkedin className="md:text-3xl" />
-              </div>
-              <div className="bg-[#ccc] p-3 cursor-pointer rounded-full">
-                <FaFacebook className="md:text-3xl" />
-              </div>
-              <div className="bg-[#ccc] p-3 cursor-pointer rounded-full">
-                <FaGithub className="md:text-3xl" />
-              </div>
-              <div className="bg-[#ccc] p-3 cursor-pointer rounded-full">
-                <FaDiscord className="md:text-3xl" />
-              </div>
-              <div className="bg-[#ccc] p-3 cursor-pointer rounded-full">
-                <FaTelegram className="md:text-3xl" />
-              </div>
-              <div className="bg-[#ccc] p-3 cursor-pointer rounded-full">
-                <SiGmail className="md:text-3xl" />
-              </div>
-              <div className="bg-[#ccc] p-3 cursor-pointer rounded-full">
-                <FaSquareWhatsapp className="md:text-3xl" />
-              </div>
+            <div className="flex flex-wrap gap-3">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/abdullah-al-nirob-096994295"
+                className="bg-[#ccc] hover:text-[#ccc] hover:bg-black hover:-translate-y-1 transform duration-100 p-3 cursor-pointer rounded-full"
+              >
+                <IoLogoLinkedin className="text-2xl md:text-3xl" />
+              </a>
+              <a
+                target="_blank"
+                href="https://www.fb.com/dev.abdullahalnirob/"
+                className="bg-[#ccc] hover:text-[#ccc] hover:bg-black hover:-translate-y-1 transform duration-100 p-3 cursor-pointer rounded-full"
+              >
+                <FaFacebook className="text-2xl md:text-3xl" />
+              </a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/dev.abdullahalnirob/"
+                className="bg-[#ccc] hover:text-[#ccc] hover:bg-black hover:-translate-y-1 transform duration-100 p-3 cursor-pointer rounded-full"
+              >
+                <BsInstagram className="text-2xl md:text-3xl" />
+              </a>
+              <a
+                target="_blank"
+                href="https://github.com/abdullahalnirob/"
+                className="bg-[#ccc] hover:text-[#ccc] hover:bg-black hover:-translate-y-1 transform duration-100 p-3 cursor-pointer rounded-full"
+              >
+                <FaGithub className="text-2xl md:text-3xl" />
+              </a>
+              <a
+                target="_blank"
+                href="https://discord.com/dev.abdullah/"
+                className="bg-[#ccc] hover:text-[#ccc] hover:bg-black hover:-translate-y-1 transform duration-100 p-3 cursor-pointer rounded-full"
+              >
+                <FaDiscord className="text-2xl md:text-3xl" />
+              </a>
+              <a
+                href="https://t.me/01750402019/"
+                className="bg-[#ccc] hover:text-[#ccc] hover:bg-black hover:-translate-y-1 transform duration-100 p-3 cursor-pointer rounded-full"
+              >
+                <FaTelegram className="text-2xl md:text-3xl" />
+              </a>
+              <a
+                href="mailto:abdullahalnirob12@gmail.com"
+                className="bg-[#ccc] hover:text-[#ccc] hover:bg-black hover:-translate-y-1 transform duration-100 p-3 cursor-pointer rounded-full"
+              >
+                <SiGmail className="text-2xl md:text-3xl" />
+              </a>
+              <a
+                target="_blank"
+                href="https://api.whatsapp.com/send/?phone=01750402019"
+                className="bg-[#ccc] hover:text-[#ccc] hover:bg-black hover:-translate-y-1 transform duration-100 p-3 cursor-pointer rounded-full"
+              >
+                <FaSquareWhatsapp className="text-2xl md:text-3xl" />
+              </a>
             </div>
           </div>
         </div>

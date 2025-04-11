@@ -58,14 +58,14 @@ const Hero = () => {
               data-aos-duration="800"
               data-aos-delay="1200"
             >
-              <span className="relative inline-flex overflow-hidden">
+              <a href="#contact" className="relative inline-flex overflow-hidden">
                 <div className="translate-y-0 skew-y-0 transition duration-500 group-hover:-translate-y-[110%] group-hover:skew-y-12">
                   Contact me
                 </div>
                 <div className="absolute translate-y-[114%] skew-y-12 transition duration-500 group-hover:translate-y-0 group-hover:skew-y-0">
                   Contact me
                 </div>
-              </span>
+              </a>
             </button>
             <a href="Abdullah-Al-Nirob.pdf" download="Abdullah-Al-Nirob.pdf">
               <button

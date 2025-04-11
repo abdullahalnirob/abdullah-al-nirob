@@ -43,43 +43,43 @@ const Skills = () => {
             data-aos-delay="150"
           >
             <h1 className="text-white text-3xl">Front End</h1>
-            <li className="flex items-center space-x-2 text-xl px-5 py-6 bg-white rounded-md">
+            <li className="flex items-center space-x-2 text-xl px-5 py-5 bg-white rounded-md">
               <span>
                 <FaHtml5 className="text-3xl mx-3" />
               </span>
               HTML
             </li>
-            <li className="flex items-center space-x-2 text-xl px-5 py-6 bg-white rounded-md">
+            <li className="flex items-center space-x-2 text-xl px-5 py-5 bg-white rounded-md">
               <span>
                 <FaCss3 className="text-3xl mx-3" />
               </span>
               CSS
             </li>
-            <li className="flex items-center space-x-2 text-xl px-5 py-6 bg-white rounded-md">
+            <li className="flex items-center space-x-2 text-xl px-5 py-5 bg-white rounded-md">
               <span>
                 <RiTailwindCssFill className="text-3xl mx-3" />
               </span>
               Tailwind CSS
             </li>
-            <li className="flex items-center space-x-5 text-xl px-5 py-6 bg-white rounded-md">
+            <li className="flex items-center space-x-5 text-xl px-5 py-5 bg-white rounded-md">
               <span>
                 <IoLogoJavascript className="text-3xl mx-3" />
               </span>
               JavaScript
             </li>
-            {/* <li className="flex items-center space-x-5 text-xl px-5 py-6 bg-white rounded-md">
+            {/* <li className="flex items-center space-x-5 text-xl px-5 py-5 bg-white rounded-md">
               <span>
               <FaPython className="text-3xl mx-3" />
               </span>
               Python
               </li> */}
-            <li className="flex items-center space-x-5 text-xl px-5 py-6 bg-white rounded-md">
+            <li className="flex items-center space-x-5 text-xl px-5 py-5 bg-white rounded-md">
               <span>
                 <FaReact className=" text-3xl mx-3" />
               </span>
               React js
             </li>
-            <li className="flex items-center space-x-2 text-xl px-5 py-6 bg-white rounded-md">
+            <li className="flex items-center space-x-2 text-xl px-5 py-5 bg-white rounded-md">
               <span>
                 <SiFirebase className="text-3xl mx-3" />
               </span>
@@ -94,25 +94,25 @@ const Skills = () => {
             data-aos-delay="200"
           >
             <h1 className="text-white text-3xl">Back End</h1>
-            <li className="flex items-center space-x-5 text-xl px-5 py-6 bg-white rounded-md">
+            <li className="flex items-center space-x-5 text-xl px-5 py-5 bg-white rounded-md">
               <span>
                 <FaNodeJs className="text-3xl mx-3" />
               </span>
               Node js
             </li>
-            <li className="flex items-center space-x-5 text-xl px-5 py-6 bg-white rounded-md">
+            <li className="flex items-center space-x-5 text-xl px-5 py-5 bg-white rounded-md">
               <span>
                 <SiExpress className="text-3xl mx-3" />
               </span>
               Express js
             </li>
-            <li className="flex items-center space-x-5 text-xl px-5 py-6 bg-white rounded-md">
+            <li className="flex items-center space-x-5 text-xl px-5 py-5 bg-white rounded-md">
               <span>
                 <SiMongodb className="text-3xl mx-3" />
               </span>
               MongoDB
             </li>
-            <li className="flex items-center space-x-5 text-xl px-5 py-6 bg-white rounded-md">
+            <li className="flex items-center space-x-5 text-xl px-5 py-5 bg-white rounded-md">
               <span>
                 <SiMongoose className="text-3xl mx-3" />
               </span>
@@ -127,31 +127,31 @@ const Skills = () => {
             data-aos-delay="250"
           >
             <h1 className="text-white text-3xl">Others</h1>
-            <li className="flex items-center space-x-5 text-xl px-5 py-6 bg-white rounded-md">
+            <li className="flex items-center space-x-5 text-xl px-5 py-5 bg-white rounded-md">
               <span>
                 <FaPython className="text-3xl mx-3" />
               </span>
               Python
             </li>
-            <li className="flex items-center space-x-5 text-xl px-5 py-6 bg-white rounded-md">
+            <li className="flex items-center space-x-5 text-xl px-5 py-5 bg-white rounded-md">
               <span>
                 <FaPencilAlt className="text-3xl mx-3" />
               </span>
               Creative Design
             </li>
-            <li className="flex items-center space-x-5 text-xl px-5 py-6 bg-white rounded-md">
+            <li className="flex items-center space-x-5 text-xl px-5 py-5 bg-white rounded-md">
               <span>
                 <MdAnimation className="text-3xl mx-3" />
               </span>
               Animation
             </li>
-            <li className="flex items-center space-x-5 text-xl px-5 py-6 bg-white rounded-md">
+            <li className="flex items-center space-x-5 text-xl px-5 py-5 bg-white rounded-md">
               <span>
                 <IoLogoFigma className="text-3xl mx-3" />
               </span>
               Figma
             </li>
-            <li className="flex items-center space-x-5 text-xl px-5 py-6 bg-white rounded-md">
+            <li className="flex items-center space-x-5 text-xl px-5 py-5 bg-white rounded-md">
               <span>
                 <SiAdobephotoshop className="text-3xl mx-3" />
               </span>

@@ -1,8 +1,9 @@
-// tailwind.config.js
-module.exports = {
-  content: ['./src/**/*.{js,jsx,ts,tsx,html}'],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};
+
+import { keepTheme } from "keep-react/keepTheme";
+
+const config = {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {},
+}
+
+export default keepTheme(config);
