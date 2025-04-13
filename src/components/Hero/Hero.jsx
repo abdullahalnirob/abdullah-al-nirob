@@ -58,7 +58,10 @@ const Hero = () => {
               data-aos-duration="800"
               data-aos-delay="1200"
             >
-              <a href="#contact" className="relative inline-flex overflow-hidden">
+              <a
+                href="#contact"
+                className="relative inline-flex overflow-hidden"
+              >
                 <div className="translate-y-0 skew-y-0 transition duration-500 group-hover:-translate-y-[110%] group-hover:skew-y-12">
                   Contact me
                 </div>

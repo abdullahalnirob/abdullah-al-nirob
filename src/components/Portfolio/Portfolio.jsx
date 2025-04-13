@@ -1,7 +1,5 @@
 import React from "react";
 import {
-  Skeleton,
-  SkeletonLine,
   Tabs,
   TabsContent,
   TabsItem,

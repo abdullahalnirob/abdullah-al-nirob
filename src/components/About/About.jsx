@@ -43,12 +43,15 @@ const About = () => {
             data-aos-delay="50"
             className="text-gray-900 text-xl"
           >
-            I’m <b>Abdullah Al Nirob</b>, a skilled Frontend Web Developer from
-            Bangladesh, specializing in React.js, HTML, CSS, and JavaScript. I
-            lead <b>CodeCraftor</b>, where we provide top-notch web development
-            services. I’m passionate about creating responsive and dynamic
-            websites that enhance user experience. My goal is to deliver
-            innovative solutions that help businesses thrive online.
+            I’m <b>Abdullah Al Nirob</b>, a web developer from Bangladesh,
+            specialized web application development. I’m passionate about
+            building modern, user-centric solutions that improve digital
+            experiences. Brain of <b>TLED</b>, a development initiative focused
+            on exploring and implementing cutting-edge web technologies.
+            Alongside this, I’m also heading <b>TLED Research</b>, a dedicated
+            team working on research into web applications to innovate
+            tech-driven solutions that solve real-world challenges and advance
+            the future of web development.
           </p>
           {/* <div className="hidden md:grid grid-cols-3">
             <li
