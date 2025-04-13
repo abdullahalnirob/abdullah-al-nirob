@@ -86,7 +86,7 @@ const Portfolio = () => {
       tech: ["React", "Tawilwindcss"],
       res: "No",
       img: "https://i.ibb.co.com/JwrHFTDs/666.png",
-      link: "https://english-janala-abdullah.surge.sh/",
+      link: "https://auctiongallery-abdullah-al-nirob.surge.sh/",
     },
     {
       name: "Burger Order",
